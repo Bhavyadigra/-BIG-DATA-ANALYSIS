@@ -12,20 +12,20 @@ MENTOR:NEELA SANTOSH
 
 # Task 1: Big Data Analysis using PySpark
 
-## 👋 Introduction
+## Introduction
 
 This project is part of my internship with **CodTech** under the Data Analysis domain. In **Task 1**, I was required to perform big data analysis on a large dataset using a scalable tool such as **PySpark**. The main objective was to handle real-world data that is too large or complex for traditional tools like Pandas or Excel, and to extract meaningful insights from it.
 
 For this task, I chose to analyze the **latest global COVID-19 dataset** provided by *Our World in Data*. It contains detailed statistics about COVID-19 cases, deaths, population, and vaccinations for countries around the world.
 
-## ⚙️ Tools and Technologies Used
+##  Tools and Technologies Used
 
 - **PySpark** – for scalable, distributed data processing
 - **Google Colab** – for writing and running the notebook in the cloud
 - **GitHub** – for version control and submission
 - **Python** – for all coding and calculations
 
-## 📊 What I Did (Project Workflow)
+##  What I Did (Project Workflow)
 
 1. **Setup PySpark on Google Colab**  
    I used the official PySpark package from PyPI and initialized a SparkSession to get started.
@@ -45,25 +45,25 @@ For this task, I chose to analyze the **latest global COVID-19 dataset** provide
    - **Cases Per Million**: I normalized total COVID-19 cases by population to find countries with the highest infection density.
    - **Vaccination vs Death Rate**: I compared the vaccination rate and death rate to explore whether more vaccinated countries had lower death rates.
 
-## 🔍 Key Findings
+##  Key Findings
 
 - Countries like **San Marino**, **Andorra**, and **Gibraltar** showed extremely high case counts per million people due to their small populations.
 - Highly vaccinated countries like **Portugal** and **UAE** had better control over death rates, suggesting a positive correlation between vaccination and lower mortality.
 - PySpark made it very efficient to process and analyze thousands of records with just a few lines of code.
 
-## 🧠 What I Learned
+##  What I Learned
 
 - I learned how to use PySpark for big data analysis — from loading and exploring data to performing complex transformations.
 - I understood the importance of scalability and how tools like PySpark can handle data that would otherwise crash a local system.
 - I also gained experience in cloud-based development using Google Colab and GitHub for clean submissions.
 
-## 📁 Files Included
+##  Files Included
 
 - `Task1_COVID_PySpark.ipynb`: My complete analysis notebook with all code, outputs, and insights
 - `covid.csv`: The dataset used (downloaded inside the notebook)
 - `README.md`: This file
 
-## ✅ Conclusion
+##  Conclusion
 
 This project helped me take my data analysis skills to the next level by introducing me to big data tools. It was a great learning experience, and I'm proud to have completed this as part of my internship with CodTech.
 
